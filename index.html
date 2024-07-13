@@ -231,6 +231,15 @@ customers service</a></li>
     
 
   <script src="script.js"></script>
+    <script>
+        const burger = document.querySelector('.burger');
+const navLinks = document.querySelector('.nav-links');
+
+burger.addEventListener('click', () => {
+    navLinks.classList.toggle('show');
+    burger.classList.toggle('toggle');
+});
+    </script>
 </body>
 
 </html>
